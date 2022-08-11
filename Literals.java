@@ -25,6 +25,7 @@ public class Literals {
         short s = 0x7fff;   //max short hex value
         System.out.println("s: " + s);
         System.out.println("s: " + Integer.toBinaryString(s));
+        System.out.println("s: " + Integer.toHexString(s));
 
         long n1 = 200L;                                          //long suffix
         System.out.println("n1: " + n1);
@@ -36,7 +37,8 @@ public class Literals {
 
         long n3 = 200;                                           //long suffix
         System.out.println("n3: " + n3);
-        System.out.println("n3: " + Long.toOctalString(n3));
+        System.out.println("n3: " + Long.toBinaryString(n3));
+        System.out.println("n3: " + Long.toHexString(n3));
 
         float f1 = 1;
         System.out.println("f1: " + f1);
